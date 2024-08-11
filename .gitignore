@@ -1,0 +1,75 @@
+# Diretórios e arquivos específicos do ambiente Conda
+.conda/
+env/
+*.yml
+
+# Arquivos de configuração do Conda
+*.condarc
+
+# Diretórios de cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+
+# Diretórios e arquivos do sistema
+.DS_Store
+*.swp
+
+# Arquivos de log
+*.log
+
+# Arquivos de banco de dados
+*.sqlite3
+
+# Arquivos de configuração do sistema
+*.pid
+*.seed
+
+# Arquivos de build
+build/
+dist/
+*.egg-info/
+
+# Arquivos temporários do editor
+*.tmp
+*.bak
+*.swp
+
+# Configurações de IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.suo
+*.sln
+
+# Arquivos de ambiente virtual
+venv/
+.env/
+
+# Arquivos de configuração de ambiente
+.env
+*.env
+
+# Dependências de pacotes
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Outros arquivos
+*.db
+*.tar.gz
+*.zip
+*.rar
+
+
+
+# Arquivos temporários do sistema
+*.tmp
+*.log
+
+# Arquivos de cache
+*.cache
