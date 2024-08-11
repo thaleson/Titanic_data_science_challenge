@@ -32,8 +32,8 @@ def show_about():
     # Carregando o dataset
     train_df = pd.read_csv('data/train.csv')
 
-    st.title("Sobre o Projeto")
-    st.header("Titanic challenge")
+  
+    st.title("Titanic challenge")
 
     # 1. Introdução ao Projeto
     st.write("""
