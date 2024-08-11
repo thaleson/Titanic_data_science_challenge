@@ -33,7 +33,7 @@ def main():
         st.error("Não foi possível carregar o modelo. Verifique o arquivo e tente novamente.")
         return
 
-    st.title("Previsão de Sobrevivência no Titanic")
+    st.title("Você sobreviveria ao Titanic 🚢💔?")
 
     # Entrada dos dados do usuário
     st.header("Insira suas características:")
