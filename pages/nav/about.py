@@ -42,8 +42,7 @@ def show_about():
 
     📈 Este projeto é considerado o "Hello, World!" do universo fantástico do Data Science, onde aplicamos técnicas de análise exploratória de dados e modelagem de Machine Learning para prever a sobrevivência dos passageiros do Titanic.
 
-    🚢 Com os dados reais disponibilizados, você pode analisar, testar hipóteses e construir modelos preditivos. Este tutorial aborda a análise exploratória e a construção de modelos, divididos em duas partes.
-    """)
+    🚢 Com os dados reais disponibilizados, você pode analisar, testar hipóteses e construir modelos preditivos. Este tutorial aborda a análise exploratória e a construção de modelos.""")
 
 
     # Adicionando a imagem
