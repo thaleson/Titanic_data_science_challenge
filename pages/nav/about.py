@@ -33,7 +33,7 @@ def show_about():
     train_df = pd.read_csv('data/train.csv')
 
     st.title("Sobre o Projeto")
-    st.header("Análise Exploratória e Modelagem")
+    st.header("Titanic challenge")
 
     # 1. Introdução ao Projeto
     st.write("""
