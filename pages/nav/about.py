@@ -38,19 +38,35 @@ def show_about():
     # 1. Introdução ao Projeto
     st.write("""
     ### Introdução:
-    🌟 O objetivo deste projeto é prever se um passageiro sobreviveria ao desastre do Titanic, com base em características como classe social, sexo, idade, número de irmãos/cônjuges a bordo, número de pais/filhos a bordo, tarifa do bilhete e porto de embarque.
+    🛳️ O Desafio de Data Science (Ciência de Dados) do Titanic é uma das competições mais conhecidas dos cientistas de dados, promovida pelo Kaggle.com.
 
-    Utilizamos um modelo de aprendizado de máquina para realizar essas previsões, e a seguir, detalhamos o processo de análise exploratória e construção do modelo.
+    📈 Este projeto é considerado o "Hello, World!" do universo fantástico do Data Science, onde aplicamos técnicas de análise exploratória de dados e modelagem de Machine Learning para prever a sobrevivência dos passageiros do Titanic.
 
-    📈 **Data Science**: Este projeto envolve análise exploratória dos dados e modelagem preditiva para entender melhor os fatores que influenciam a sobrevivência.
+    🚢 Com os dados reais disponibilizados, você pode analisar, testar hipóteses e construir modelos preditivos. Este tutorial aborda a análise exploratória e a construção de modelos, divididos em duas partes.
     """)
+
 
     # Adicionando a imagem
     st.image('static/imgs/titanicimg.jpg', caption='Titanic', use_column_width=True)
 
+
+    # Contexto Histórico
+    st.write("""
+    📰 **Contexto Histórico:**
+    A tragédia do Titanic, que naufragou em 15 de abril de 1912 após colidir com um iceberg, resultou na morte de 1502 pessoas de um total de 2224 passageiros.
+
+    🛟 Fatores como a falta de botes salva-vidas suficientes e decisões negligentes contribuíram para o alto número de vítimas. No entanto, alguns grupos de passageiros, como mulheres e crianças, tiveram uma maior chance de sobrevivência.
+    """)
+
+    # Explicação do Desafio
+    st.write("""
+    🎯 **Objetivo do Desafio:**
+    Utilizando os dados disponíveis, o objetivo é analisar quais variáveis influenciaram a probabilidade de sobrevivência dos passageiros e construir um modelo preditivo para calcular essa probabilidade para qualquer passageiro.
+    """)
+
     # 2. Passo a Passo da Análise
     st.write("""
-    ### Passo a Passo da Análise Exploratória e Construção do Modelo:
+    ### Análise Exploratória e Construção do Modelo:
 
     1. **Carregamento dos Dados**:
     ```python
