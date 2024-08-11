@@ -38,10 +38,15 @@ def show_about():
     # 1. Introdução ao Projeto
     st.write("""
     ### Introdução:
-    O objetivo deste projeto é prever se um passageiro sobreviveria ao desastre do Titanic, com base em características como classe social, sexo, idade, número de irmãos/cônjuges a bordo, número de pais/filhos a bordo, tarifa do bilhete e porto de embarque.
+    🌟 O objetivo deste projeto é prever se um passageiro sobreviveria ao desastre do Titanic, com base em características como classe social, sexo, idade, número de irmãos/cônjuges a bordo, número de pais/filhos a bordo, tarifa do bilhete e porto de embarque.
 
     Utilizamos um modelo de aprendizado de máquina para realizar essas previsões, e a seguir, detalhamos o processo de análise exploratória e construção do modelo.
+
+    📈 **Data Science**: Este projeto envolve análise exploratória dos dados e modelagem preditiva para entender melhor os fatores que influenciam a sobrevivência.
     """)
+
+    # Adicionando a imagem
+    st.image('static/imgs/titanicimg.jpg', caption='Titanic', use_column_width=True)
 
     # 2. Passo a Passo da Análise
     st.write("""
@@ -209,7 +214,7 @@ def show_about():
     ### Conclusão:
     Este projeto demonstra como um modelo de aprendizado de máquina pode ser aplicado para prever a sobrevivência em cenários complexos, como o desastre do Titanic. Através de uma análise detalhada dos dados e da construção de um modelo preditivo, conseguimos obter uma acurácia razoável, indicando que variáveis como classe social, sexo e idade tiveram um impacto significativo na probabilidade de sobrevivência.
 
-    A implementação deste projeto em Streamlit permite uma interface interativa onde qualquer pessoa pode testar suas características e verificar se sobreviveria ao Titanic.
 
-    **Obrigado por explorar este projeto!**
+
+    🔗 Confira o código completo no meu GitHub: [Thaleson Silva](https://github.com/thaleson)
     """)
